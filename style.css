@@ -49,3 +49,27 @@ a:active {
   background-color: white;
   color: #364fc7;
 }
+
+/* GitHub link */
+.github:link,
+.github:visited {
+  color: #343a40;
+  text-decoration: underline;
+}
+
+.github:hover,
+.github:active {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f8f9fa;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+  margin-top: 70px;
+}
